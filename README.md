@@ -4,7 +4,8 @@ Official implementation of [Knowledge-Guided Diffusion Model for 3D Ligand-Pharm
 
 Pharmacophores are abstractions of essential chemical interaction patterns, holding an irreplaceable position in drug discovery. Despite the availability of many pharmacophore-based tools, the adoption of deep learning for pharmacophore-guided drug discovery remains relatively rare. We herein propose a novel knowledge-guided diffusion framework for ‘on-the-fly’ 3D ligand-pharmacophore mapping, named DiffPhore. It comprises a knowledge-guided ligand-pharmacophore mapping encoder, a diffusion conformation generator, and a calibrated conformation sampler. By training on two newly established benchmark datasets of pharmacophore-ligand pairs, DiffPhore achieved state-of-the-art performance in predicting ligand active conformations, surpassing traditional pharmacophore tools and several advanced docking methods. It also manifested superior virtual screening power for both lead discovery and target fishing. 
 
-![Demo] (https://github.com/user-attachments/assets/4ee7b7e7-21a3-4a89-9d8e-56c344857224)
+# Demo
+![Failed to load the video](./figs/mapping.mp4)
 
 
 

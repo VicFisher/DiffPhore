@@ -73,7 +73,7 @@ python src/train.py --run_name diffphore_warmup --dataset zinc --lr 1e-3 --num_c
 ```
 
 ## 2. Refinement training with CpxPhoreSet
-CpxPhoreSet contains about 1,5000 imperfectly-matching ligand-pharmacophore pairs derived from crystal complex structures of PDBBind, which refine the model for understanding biased LPMs and gaining deeper insights into the induced-fit effects of ligand-target interactions. A demo command for this training stage is as follows:
+CpxPhoreSet contains about 15,000 imperfectly-matching ligand-pharmacophore pairs derived from crystal complex structures of PDBBind, which refine the model for understanding biased LPMs and gaining deeper insights into the induced-fit effects of ligand-target interactions. A demo command for this training stage is as follows:
 ```
 python src/train.py --run_name diffphore_calibrated_warmup --restart_dir results/diffphore_warmup --dataset pdbbind --lr 1e-3 --num_conv_layers 4 --ns 20 --nv 10 --phoretype_match True --consider_norm True --dynamic_coeff 6 --epoch_from_infer 400 --rate_from_infer 0.6 --n_epochs 800 
 ```

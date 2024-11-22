@@ -54,5 +54,9 @@ python src/inference.py --phore_ligand_csv examples/task_file.csv --cache_path d
 ```
 `--phore_ligand_csv` specifies the csv file containing the ligand and pharmacophore input information. The csv file should contains the header 'ligand_description' and 'phore', which require the same file format as `--ligand` and `--phore` options.<br />
 
+# Citation
+Yu, J.; Zhou, C.; Ning, X.; Mou, J.; Meng, F.; Wu, J.; Chen, Y.; Liu, X.*; Li, G.-B*. Knowledge-Guided Diffusion Model for 3D Ligand-Pharmacophore Mapping (under review)
+*To whom correspondence should be addressed.
+
 
 If you encounter any question, don't hesitate to open an issue or send us an email at vicfisher6072@163.com, liuxianggen@scu.edu.cn and liguobo@scu.edu.cn.

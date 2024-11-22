@@ -64,8 +64,12 @@ The pharmacophore mapping results, including aligned ligand structures ranked by
 |inference_metric.json| The "JSON" file recording the 'id', 'fitness' and 'run_time' for each input ligand-pharmacophore pair.|
 |ranked_results.csv| The results ranked by maximium fitness score, which is useful for virtual screening task.|
 
-### 4. Running on your own case
-
+# Training
+## 1. Warm-up training with LigPhoreSet
+LigPhoreSet comprises >280,000 unique ligands and >800,000 corresponding ligand-pharmacophore pairs, which makes DiffPhore capture generalizable LPM patterns across a broad chemical and pharmacophoric space.
+```
+python src/train.py --phore examples/phore/sQC_QFA_complex.phore --ligand examples/ligands/STK936575.sdf --cache_path data/caches --out_dir examples/output/1 --model_dir weights/diffphore_calibrated_warmuped_ft --sample_per_complex 40 --batch_size 20 --num_workers 6
+```
 
 # Citation
 Yu, J.; Zhou, C.; Ning, X.; Mou, J.; Meng, F.; Wu, J.; Chen, Y.; Liu, X.*; Li, G.-B*. Knowledge-Guided Diffusion Model for 3D Ligand-Pharmacophore Mapping (under review)<br />

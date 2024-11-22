@@ -55,7 +55,7 @@ python src/inference.py --phore_ligand_csv examples/task_file.csv --cache_path d
 `--phore_ligand_csv` specifies the csv file containing the ligand and pharmacophore input information. The csv file should contains the header 'ligand_description' and 'phore', which require the same file format as `--ligand` and `--phore` options.<br />
 
 ### 3. Expected output
-The pharmacophore mapping results are located in the output directory specified with `--out_dir`. It contains the following files:
+The pharmacophore mapping results, including aligned ligand structures ranked by corresponding fitness scores and some summary files,  are located in the output directory specified with `--out_dir`. It contains the following files:
 | File | Description | 
 | ----------- | ----------- |
 |mapping_process/|The cachce directory for the original aligned ligand structures and pharmacophore fitness calculation.|

@@ -1,0 +1,28 @@
+Input Parameters:
+	Reference Protein file:    No
+	Reference Ligand file:    No
+	Calculate CV Pharmacophore:    Yes
+	Reference Protein2 file:    No
+	Database file:     /home/worker/users/YJL/DiffPhore/release/examples/output/2/mapping_process/sQC_Substrate__STK441223/sQC_Substrate__STK441223.sdf
+	Database type:     unknown
+	Ref_Phore output file: /home/worker/users/YJL/DiffPhore/release/examples/phore/sQC_QFA_complex.phore
+	DB_Phore output file: No
+	AlignMol output file: No
+	Scores file:       /home/worker/users/YJL/DiffPhore/release/examples/output/2/mapping_process/sQC_Substrate__STK441223/sQC_Substrate__STK441223.score
+	EX Cutoff:       500
+	Overlap coefficient:       1
+	Matched percentage coefficient:       0
+	Anchor feature coefficient:       0
+	Best hits:         No
+	use genetic algorithm:           No
+	use fitscore2:           No
+	Is ouput conformer:           No
+	Max Conformers:         5
+	Is using MultiConformerFile:           Yes
+	Is  based on only protein:           No
+	Is  based on only ligand:           No
+	Is for model training:           Yes
+
+Start progressing database file ... 
+....
+Processed 40 molecules in 0.360706 seconds (110.894 molecules per second).

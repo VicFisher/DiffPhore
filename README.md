@@ -58,5 +58,7 @@ python src/inference.py --phore_ligand_csv examples/task_file.csv --cache_path d
 Yu, J.; Zhou, C.; Ning, X.; Mou, J.; Meng, F.; Wu, J.; Chen, Y.; Liu, X.*; Li, G.-B*. Knowledge-Guided Diffusion Model for 3D Ligand-Pharmacophore Mapping (under review)<br />
 *To whom correspondence should be addressed.
 
+# Lisense
+The code and model weights are released under MIT license. See the [LICENSE](LICENSE) file for details.
 
 If you encounter any question, don't hesitate to open an issue or send us an email at vicfisher6072@163.com, liuxianggen@scu.edu.cn and liguobo@scu.edu.cn.

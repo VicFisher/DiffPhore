@@ -54,6 +54,14 @@ python src/inference.py --phore_ligand_csv examples/task_file.csv --cache_path d
 ```
 `--phore_ligand_csv` specifies the csv file containing the ligand and pharmacophore input information. The csv file should contains the header 'ligand_description' and 'phore', which require the same file format as `--ligand` and `--phore` options.<br />
 
+### 3. Expected output
+The pharmacophore mapping results are located in the output directory specified with `--out_dir`. It contains the following files:
+|mapping_process/|The cachce directory for the original aligned ligand structures and pharmacophore fitness calculation|
+|ranked_poses/| The "SDF" files containing aligned poses ranked by the specified pharmacophore fitness score|
+|inference_metric.json| The "JSON" file recording the 'id', 'fitness' and 'run_time' for each input ligand-pharmacophore pair.|
+|ranked_results.csv| The results ranked by maximium fitness score, which is useful for virtual screening task|
+
+
 # Citation
 Yu, J.; Zhou, C.; Ning, X.; Mou, J.; Meng, F.; Wu, J.; Chen, Y.; Liu, X.*; Li, G.-B*. Knowledge-Guided Diffusion Model for 3D Ligand-Pharmacophore Mapping (under review)<br />
 *To whom correspondence should be addressed.

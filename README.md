@@ -28,7 +28,7 @@ Note that the pytorch_geometric package installation might be problematic, you c
 
 # Usage
 ## 1. Calculate pharmacophore files using [AncPhore](https://ancphore.ddtmlab.org/)
-Please refer to the [AncPhore](https://ancphore.ddtmlab.org/) website for more details.
+Please refer to the [AncPhore](https://ancphore.ddtmlab.org/Modeling) website for more details.
 Here, we provide a pharmacophore file as an example (`examples/phore/sQC_QFA_complex.phore`), which is the one used for virtual screening of sQC in the paper.
 
 ## 2. Run DiffPhore

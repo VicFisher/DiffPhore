@@ -83,7 +83,7 @@ python src/train.py --run_name diffphore_calibrated_warmup --restart_dir results
 **Note**: The datasets, including **LigPhoreSet** and **CpxPhoreSet**, will be made available after the publication of our paper. The training commands provided above are illustrative and not executable in their current form. A complete training script will be released alongside the datasets upon publication.
 
 # Citation
-Yu, J.; Zhou, C.; Ning, X.; Mou, J.; Meng, F.; Wu, J.; Chen, Y.; Liu, X.*; Li, G.-B*. Knowledge-Guided Diffusion Model for 3D Ligand-Pharmacophore Mapping (under review)<br />
+Yu, J.; Zhou, C.; Ning, X.; Mou, J.; Meng, F.; Wu, J.; Chen, Y.; Liu, X.\*; Li, G-B\*. Knowledge-Guided Diffusion Model for 3D Ligand-Pharmacophore Mapping (under review)<br />
 *To whom correspondence should be addressed.
 
 # Lisense

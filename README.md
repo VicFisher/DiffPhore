@@ -70,6 +70,9 @@ The pharmacophore mapping results, including aligned ligand structures ranked by
 # 3D ligand-pharmacophore datasets
 The datasets, including **LigPhoreSet** and **CpxPhoreSet**, can be accessed *via* [Zenodo repository](https://zenodo.org/records/14819917). 
 
+# Model checkpoint
+The checkpoint and settings of the best model described in the article is located in the [`weights/diffphore_calibrated_warmuped_ft`](weights/diffphore_calibrated_warmuped_ft) folder.
+
 # Citation
 Yu, J.; Zhou, C.; Ning, X.; Mou, J.; Meng, F.; Wu, J.; Chen, Y.; Liu, X.\*; Li, G-B\*. Knowledge-Guided Diffusion Model for 3D Ligand-Pharmacophore Mapping (under review)<br />
 *To whom correspondence should be addressed.

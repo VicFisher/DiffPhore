@@ -67,20 +67,8 @@ The pharmacophore mapping results, including aligned ligand structures ranked by
 |inference_metric.json| The "JSON" file recording the 'id', 'fitness' and 'run_time' for each input ligand-pharmacophore pair.|
 |ranked_results.csv| The results ranked by maximium fitness score, which is useful for virtual screening task.|
 
-# Training 
-## 1. Warm-up training with LigPhoreSet
-LigPhoreSet comprises >280,000 unique ligands derived from ZINC20 dataset and >800,000 corresponding ligand-pharmacophore pairs, which makes DiffPhore capture generalizable ligand-pharmacophore mapping (LPM) patterns across a broad chemical and pharmacophoric space. A demo command for this training stage is as follows:
-```
-python src/train.py --run_name diffphore_warmup --dataset zinc --lr 1e-3 --num_conv_layers 4 --ns 20 --nv 10 --phoretype_match True --consider_norm True --n_epochs 40 
-```
-
-## 2. Refinement training with CpxPhoreSet
-CpxPhoreSet contains about 15,000 imperfectly-matching ligand-pharmacophore pairs derived from crystal complex structures of PDBBind, which refine the model for understanding biased LPMs and gaining deeper insights into the induced-fit effects of ligand-target interactions. A demo command for this training stage is as follows:
-```
-python src/train.py --run_name diffphore_calibrated_warmup --restart_dir results/diffphore_warmup --dataset pdbbind --lr 1e-3 --num_conv_layers 4 --ns 20 --nv 10 --phoretype_match True --consider_norm True --dynamic_coeff 6 --epoch_from_infer 400 --rate_from_infer 0.6 --n_epochs 800 
-```
-
-**Note**: The datasets, including **LigPhoreSet** and **CpxPhoreSet**, will be made available after the publication of our paper. The training commands provided above are illustrative and not executable in their current form. A complete training script will be released alongside the datasets upon publication.
+# 3D ligand-pharmacophore datasets
+The datasets, including **LigPhoreSet** and **CpxPhoreSet**, can be accessed *via* [Zenodo repository](https://zenodo.org/records/14819917). 
 
 # Citation
 Yu, J.; Zhou, C.; Ning, X.; Mou, J.; Meng, F.; Wu, J.; Chen, Y.; Liu, X.\*; Li, G-B\*. Knowledge-Guided Diffusion Model for 3D Ligand-Pharmacophore Mapping (under review)<br />

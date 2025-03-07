@@ -74,7 +74,7 @@ The datasets, including **LigPhoreSet** and **CpxPhoreSet**, can be accessed *vi
 The checkpoint and settings of the best model described in the article is located in the [`weights/diffphore_calibrated_warmuped_ft`](weights/diffphore_calibrated_warmuped_ft) folder.
 
 # Citation
-Yu, J.; Zhou, C.; Ning, X.; Mou, J.; Meng, F.; Wu, J.; Chen, Y.; Liu, X.\*; Li, G-B\*. Knowledge-Guided Diffusion Model for 3D Ligand-Pharmacophore Mapping (under review)<br />
+Yu, J.; Zhou, C.; Ning, X.; Mou, J.; Meng, F.; Wu, J.; Chen, Y.; Liu, X.\*; Li, G-B\*. Knowledge-Guided Diffusion Model for 3D Ligand-Pharmacophore Mapping. _Nat Commun_ **16**, 2269 (2025). https://doi.org/10.1038/s41467-025-57485-3<br />
 *To whom correspondence should be addressed.
 
 # Lisense

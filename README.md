@@ -29,7 +29,7 @@ Note that the pytorch_geometric package installation might be problematic, you c
 # Usage
 ## 1. Calculate pharmacophore files using [AncPhore](https://ancphore.ddtmlab.org/)
 Users have two options for utilizing AncPhore:<br />
-**Download the Binary**: Users can download the binary directly from the official AncPhore website to compute pharmacophores locally.<br />
+**Download the Binary**: Users can download the binary directly from the official AncPhore website to compute pharmacophores locally, which can be also accessed via `programs/AncPhore`. Please note that the `programs/data` folder is essential for the successful operation of AncPhore.<br />
 **Online Server Access**: We have recently launched an online server that allows users to run AncPhore without local installation. You can access this server [here](https://ancphore.ddtmlab.org/Modeling).<br /><br />
 Here, we provide a pharmacophore file as an example (`examples/phore/sQC_QFA_complex.phore`), which is the one used for virtual screening of sQC in the paper.
 

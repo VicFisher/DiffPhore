@@ -62,7 +62,7 @@ python src/inference.py --phore_ligand_csv examples/task_file.csv --cache_path d
 The pharmacophore mapping results, including aligned ligand structures ranked by corresponding fitness scores and some summary files,  are located in the output directory specified with `--out_dir`. It contains the following directories or files:
 | File/Directory | Description | 
 | ----------- | ----------- |
-|mapping_process/|The cachce directory for the original aligned ligand structures and pharmacophore fitness calculation.|
+|mapping_process/|The cache directory for the original aligned ligand structures and pharmacophore fitness calculation.|
 |ranked_poses/| The cachce directory for "SDF" files containing aligned ligand poses ranked by the specified pharmacophore fitness score.|
 |inference_metric.json| The "JSON" file recording the 'id', 'fitness' and 'run_time' for each input ligand-pharmacophore pair.|
 |ranked_results.csv| The results ranked by maximium fitness score, which is useful for virtual screening task.|
